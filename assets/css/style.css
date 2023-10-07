@@ -24,12 +24,8 @@
     --space-96: 6rem;
 }
 
-html,
 body {
     font-size: var(--font-16);
-}
-
-body {
     font-family: sans-serif;
     background-color: var(--color-extralight);
 }
@@ -149,6 +145,7 @@ body {
         /* Wishlist */
 
         & .wishlist {
+            font-size: var(--font-16);
             background: var(--color-extralight);
             position: absolute;
             padding: var(--space-8);
